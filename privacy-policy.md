@@ -119,8 +119,7 @@ JustDeen requires internet connection for initial setup and certain features:
 
 If you have questions about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email**: help@justdeen.app 
-**Developer**: Husain Shah  
+**Email**: help@justdeen.app
 
 ## Compliance
 
