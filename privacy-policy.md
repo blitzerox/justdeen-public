@@ -16,7 +16,7 @@ JustDeen has been built with privacy as a fundamental principle:
 - **No Cloud Storage**: All data remains exclusively on your device
 - **No Analytics**: We do not track your usage or behavior
 - **No User Accounts**: No registration or login required
-- **Offline First**: The app works completely offline
+- **Offline First**: Once set up, the app works offline for most features
 
 ## Information That Stays on Your Device
 
@@ -45,6 +45,12 @@ JustDeen may request the following permissions solely for app functionality:
 - **Purpose**: Allow you to add prayer times and Islamic events to your device calendar
 - **Usage**: Calendar integration happens directly on your device
 - **Storage**: No calendar data is accessed or stored by us
+
+### Internet Permission
+- **Purpose**: Download Quran content and fetch prayer time data
+- **Usage**: Only used to retrieve Islamic content from public APIs
+- **Storage**: Downloaded content is stored locally on your device
+- **Privacy**: No personal data is sent with these requests
 
 ## No Data Sharing
 
@@ -87,12 +93,27 @@ JustDeen is suitable for users of all ages. Since we do not collect any personal
 
 We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Last Updated" date at the top of this policy. Since we don't collect user data, we cannot notify you directly of changes, so please review this policy periodically.
 
-## Open Source APIs
+## Internet Usage and APIs
 
-JustDeen uses the following open source APIs for Islamic content:
-- Prayer time calculations are performed locally using established calculation methods
-- Quran data is bundled within the app
-- All API calls (if any) are for retrieving publicly available Islamic content only
+JustDeen requires internet connection for initial setup and certain features:
+
+### Prayer Times API
+- **Provider**: Aladhan.com (public Islamic API)
+- **Data Sent**: Only your location coordinates (if you grant permission) or city name
+- **Data Received**: Prayer time calculations for your location
+- **Privacy**: No user identification or tracking
+
+### Quran Content API
+- **Provider**: Al Quran Cloud API and other public Quran APIs
+- **Data Sent**: Only content requests (e.g., surah number, translation preference)
+- **Data Received**: Quran text, translations, and audio
+- **Privacy**: No personal data is transmitted
+
+### Important Notes:
+- These APIs only receive the minimum data needed to provide Islamic content
+- No personal information, device IDs, or tracking data is ever sent
+- Once downloaded, content is cached locally for offline use
+- You can use the app offline after initial content download
 
 ## Contact Us
 
